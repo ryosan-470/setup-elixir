@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     name: OTP ${{matrix.pair.otp-version}} / Elixir ${{matrix.pair.elixir-version}}
     strategy:
       matrix:
